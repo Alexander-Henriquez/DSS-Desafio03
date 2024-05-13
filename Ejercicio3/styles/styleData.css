@@ -1,0 +1,23 @@
+:root {
+    --background: #2C2C2C;
+    --background-widget: #1E2023;
+    --primary: #F6C356;
+}
+body{
+    background-color: #2C2C2C;
+}
+
+
+.widget {
+    border-radius: 2rem;
+    background-color: var(--background-widget);
+    padding: 1rem;
+    max-width: 40rem;
+    width: 100%;
+    min-width: 20rem;
+    text-align: center;
+}
+
+.widget canvas {
+    min-height: 16rem;
+}
